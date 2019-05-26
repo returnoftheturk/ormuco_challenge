@@ -41,4 +41,3 @@ print(compareToString("18.200.99999999", "18.200.99999999"))
 print(compareToString("18.200.99999998", "18.200.99999999"))
 print(compareToString("18.200.99999998", "18.200.999996"))
 
-print(-1>-3)

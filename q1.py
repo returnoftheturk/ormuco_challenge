@@ -5,6 +5,8 @@
 def findOverlap(x1, x2):
     return (x2[1]<x1[1] and x2[1]>x1[0]) or (x2[0]<x1[1] and x2[0]>x1[0])
 
-x1 = (1,5)
-x2 = (6,9)
-print(findOverlap(x1, x2))
+print(findOverlap((1,5),(6,9)))
+print(findOverlap((-5,1),(2,9)))
+print(findOverlap((-100,-50),(-200,-99)))
+print(findOverlap((-100,-50),(-51,-9)))
+print(findOverlap((-100,-50),(-49,1000)))
