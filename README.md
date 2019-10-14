@@ -1,7 +1,7 @@
 # ormuco_challenge
 
 ## Question 3 Documentation
-The class GeoDistributedLRUCache is a library I built to be used extensively
+The class LRUCache is a library I built to be used extensively
 by Ormuco services.  
 A new cache is initialized with parameters "capacity" and
 "expiration".  Capacity is the total number of entries allowed into the cache. 

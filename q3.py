@@ -1,6 +1,6 @@
 import collections
 import time
-class GeoDistributedLRUCache:
+class LRUCache:
     def __init__(self, capacity, expiration = 10):
         self.capacity = capacity
         self.expiration = expiration
@@ -102,7 +102,7 @@ class GeoDistributedLRUCache:
         for key, value in self.cache.items():
             print(key, value)
 
-geoCache = GeoDistributedLRUCache(capacity= 5, expiration = 2)
+geoCache = LRUCache(capacity= 5, expiration = 2)
 geoCache.add('key0','string0')
 geoCache.add('key1','string1')
 geoCache.add('key2','string2')
